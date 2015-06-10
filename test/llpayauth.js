@@ -85,7 +85,7 @@ describe('#doAuth()',function(){
 						body.sign_type.should.be.equal('MD5');
 					});
 					it('sign should ok',function(){
-						body.sign.should.be.equal("6f73b563eac8227f35f61a83caa5bf8d");
+						body.sign.should.be.equal("f8bd52c31f5b9ead575d3e72961f3d88");
 					})
 				});			
 				var res = {
