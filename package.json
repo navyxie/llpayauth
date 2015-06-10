@@ -1,6 +1,6 @@
 {
   "name": "llpayauth",
-  "description": "连连支付 WAP sdk",
+  "description": "连连支付 网+ 实名认证 lianlian sdk",
   "main": "index.js",
   "author": {
     "name": "navyxie"
@@ -15,21 +15,22 @@
     "api",
     "连连支付",
     "WAP支付",
-    "实名认证"
+    "实名认证",
+    "lianlian"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/navyxie/llpayauth.git"
   },
   "dependencies": {
     "utf8": "^2.1.0",
-    "request":"2.57.0"
+    "request": "2.57.0"
   },
   "devDependencies": {
     "mocha": "*",
     "should": "*",
-    "muk":"0.3.2"
+    "muk": "0.3.2"
   },
   "homepage": "https://github.com/navyxie/llpayauth.git"
 }

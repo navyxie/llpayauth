@@ -18,7 +18,7 @@ describe('#doAuth()',function(){
 				describe('#json.url should be "https://yintong.com.cn/tradeauthapi/v1/auth/get_auth"#',function(){
 					var body = JSON.parse(json.body);
 					// console.log(body);
-					//认证的地址必须是"https://yintong.com.cn/tradeauthapi/v1/auth/get_auth"
+					//新版认证的地址必须是"https://yintong.com.cn/tradeauthapi/v1/auth/get_auth"
 					it('url should ok',function(){
 						json.url.should.be.equal("https://yintong.com.cn/tradeauthapi/v1/auth/get_auth");				
 					});
@@ -77,7 +77,7 @@ describe('#doAuth()',function(){
 			muk(request,'post',function(json, callback){
 				var body = JSON.parse(json.body);
 				describe('#json.url should be "https://yintong.com.cn/tradeauthapi/auth.htm"#',function(){
-					//认证的地址必须是"https://yintong.com.cn/tradeauthapi/auth.htm"
+					//旧版认证的地址必须是"https://yintong.com.cn/tradeauthapi/auth.htm"
 					it('should ok',function(){
 						json.url.should.be.equal("https://yintong.com.cn/tradeauthapi/auth.htm");
 					});
